@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/page/listGridPage/grid_view_section.dart';
+import 'package:flutter_demo/page/listGridPage/list_view_diferent_types_itens_section.dart';
 import 'package:flutter_demo/page/listGridPage/list_view_horisontal_section.dart';
 import 'package:flutter_demo/page/listGridPage/list_view_section.dart';
 
@@ -15,6 +16,7 @@ class ListAndGridsScreen extends StatelessWidget {
           ListViewSection(),
           ListViewHorizontalSection(),
           GridViewSection(),
+          ListViewDiferentTypesItensSection(),
         ],
       ),
     );

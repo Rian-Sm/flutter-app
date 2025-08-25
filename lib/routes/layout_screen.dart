@@ -16,7 +16,7 @@ class LayoutScreen extends StatelessWidget {
           ImageSection(image: 'assets/chipazineBananine.jpeg'),
           Titlesection(name: 'Chipanzine Bananine', location: 'Amazonia'),
           ButtonsSection(),
-          TextSection(description: 'Chimpanzini Bananini! wa wa wa! Bananuchi monkey monkey monkey yuchi! or Chimpanzini Cocosini? Wa wa wa! Boop boop badapim. Coconuchi monkey monkey monkey yuchi! or Chimpanzini Ananasini? wa wa wa!')
+          TextSection(description: 'Chimpanzini Bananini! wa wa wa! Bananuchi monkey monkey monkey yuchi! or Chimpanzini Cocosini? Wa wa wa! Boop boop badapim. Coconuchi monkey monkey monkey yuchi! or Chimpanzini Ananasini? wa wa wa!'),
         ],
       ),
     );

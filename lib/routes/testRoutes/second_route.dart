@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SecontRoute extends StatelessWidget {
-  const SecontRoute({super.key});
+class SecondRoute extends StatelessWidget {
+  const SecondRoute({super.key});
 
   @override
   Widget build(BuildContext context) {

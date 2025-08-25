@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/components/buttonWithText.dart';
-import 'package:flutter_demo/routes/layoutScreen.dart';
-import 'package:flutter_demo/routes/listAndGridsScreen.dart';
-import 'package:flutter_demo/routes/testRoutes/firstRoute.dart';
-import 'package:flutter_demo/routes/testRoutes/secondRoute.dart';
-import 'package:flutter_demo/routes/testRoutes/stackRoute.dart';
+import 'package:flutter_demo/routes/layout_screen.dart';
+import 'package:flutter_demo/routes/list_and_grid_screen.dart';
+import 'package:flutter_demo/routes/testRoutes/first_route.dart';
+import 'package:flutter_demo/routes/testRoutes/second_route.dart';
+import 'package:flutter_demo/routes/testRoutes/stack_route.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
        routes: <String, WidgetBuilder> {
         '/first': (context) => const FirstRoute(),
-        '/second': (context) => const SecontRoute()
+        '/second': (context) => const SecondRoute()
       },
       title: 'Flutter Demo',
       theme: ThemeData(
