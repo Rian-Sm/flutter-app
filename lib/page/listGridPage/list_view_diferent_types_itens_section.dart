@@ -42,7 +42,7 @@ class MessageItem extends ListItem {
 }
 
 final itens = List<ListItem>.generate(
-  50,
+  21,
   (index) => index % 6 == 0
       ? HeadingItem(heading: 'Heading $index')
       : MessageItem(sender: 'Sender $index', body: 'Message body $index'),
@@ -55,7 +55,7 @@ class ListViewDiferentTypesItensSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       
-      height: 300,
+      height: 200,
       child: ListView.builder(
         itemCount: itens.length,
         itemBuilder: (context, index) {

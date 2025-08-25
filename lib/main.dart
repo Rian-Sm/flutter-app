@@ -13,7 +13,8 @@ void main() async {
 const List<Widget> tabsList = [
   Tab(icon: ButtonWithText(label: 'Routes',icon: Icons.house, color: Colors.grey),),
   Tab(icon: ButtonWithText(label: 'Layout',icon:Icons.face_3_sharp, color: Colors.grey),),
-  Tab(icon: Icon(Icons.motorcycle),),
+  Tab(icon: ButtonWithText(label: 'List/Grids',icon:Icons.view_headline_rounded, color: Colors.grey),),
+
   Tab(icon: Icon(Icons.view_headline_rounded),),
 ];
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DefaultTabController(length: tabsList.length, child: const MyHomePage(title: 'navigation and routes')) 
+      home: DefaultTabController(length: tabsList.length, child: const MyHomePage(title: 'Flutter demo funcionalities')) 
     );
   }
 }
